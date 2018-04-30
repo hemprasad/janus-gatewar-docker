@@ -1,0 +1,4 @@
+TEMPLATE_NAME ?= janus-gateway-full-docker
+
+image:
+	@docker build -t hemprasad/$(TEMPLATE_NAME) .
